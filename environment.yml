@@ -1,0 +1,16 @@
+# run: conda env create --file environment.yml
+# version structure: MAJOR.MINOR.PATCH
+name: cognitive
+dependencies:
+  - python == 3.12
+  - pip
+  - pip:
+    - matplotlib >= 3.10.0
+    - numpy ~= 1.26.3 # ~= means keep major and minor version, but gets latest patch
+    - numba >= 0.60.0
+    - seaborn >= 0.13.2
+    - scipy >= 1.15.1
+    - ipython >= 8.26.0
+    - notebook >= 7.3.2
+    - pystan >= 3.10.0
+    - tensorflow >= 2.18.0
