@@ -1,0 +1,2 @@
+Requirement already satisfied: scipy in /home/schild/anaconda3/envs/cognitive/lib/python3.12/site-packages (1.12.0)
+Requirement already satisfied: numpy<1.29.0,>=1.22.4 in /home/schild/anaconda3/envs/cognitive/lib/python3.12/site-packages (from scipy) (1.26.4)
